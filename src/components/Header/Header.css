@@ -1,0 +1,79 @@
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 1rem;
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>p {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 24px;
+    margin-left: 0.5rem;
+}
+
+.logo>img {
+    width: 16px;
+    height: 11.91px;
+    cursor: pointer;
+}
+
+.nav__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 0.5rem;
+    width: 50%;
+}
+
+.btn-sing-up {
+    outline: 0.5px solid #FF9F66;
+    color: #FF9F66;
+    background-color: #FFF1E8;
+}
+
+.nav__btn-container>button {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav__btn-container>button.btn-sing-up:hover {
+    color: black;
+    background-color: transparent;
+    border-radius: 3px;
+    outline: 0.5px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__btn-container>button.btn-sing-in:hover {
+    background-color: transparent;
+    outline: 0.5px solid #FF9F66;
+    color: #FF9F66;
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 900px) {
+    .nav__container {
+        width: 100%;
+        box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+    }
+}

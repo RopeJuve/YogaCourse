@@ -1,0 +1,95 @@
+.hero__text-container{
+    margin: 1rem;
+}
+.hero__text-container>h1 {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 46px;
+}
+
+.hero__text-container>p {
+    color: #584F49;
+    font-size: 0.9rem;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.hero__brtn-container>button {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.learn-more {
+    color: black;
+    background-color: transparent;
+    border-radius: 3px;
+    outline: 0.5px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.learn-more:hover {
+    background-color: black;
+    color: white;
+}
+
+.get-started {
+    background-color: #FF9F66;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.get-started:hover {
+    color: #FF9F66;
+    background-color: white;
+    outline: 0.5px solid #FF9F66;
+}
+
+
+.shape {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    height: 255px;
+    border-bottom-left-radius: 25rem;
+    border-bottom-right-radius: 12rem;
+    background-color: #EDC988;
+    z-index: -10;
+
+}
+
+.shape>img {
+    position: absolute;
+    width: 80%;
+    height: 200%;
+    top: 1rem;
+    left: 3rem;
+}
+
+.hero__card-container{
+    margin-top: 15vh;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #258675;
+    z-index: 10;
+}
+
+.card-flex{
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap:0.7rem;
+}
