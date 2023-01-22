@@ -1,7 +1,22 @@
 .hero__text-container{
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
 }
-.hero__text-container>h1 {
+
+
+
+.text-flex-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+.text-flex-column>h1 {
     margin-right: 2rem;
     margin-bottom: 1.5rem;
     font-size: 2rem;
@@ -9,12 +24,14 @@
     line-height: 46px;
 }
 
-.hero__text-container>p {
+.text-flex-column>p {
     color: #584F49;
     font-size: 0.9rem;
     line-height: 22px;
     margin-bottom: 1.5rem;
 }
+
+
 
 .hero__brtn-container>button {
     display: inline-block;
@@ -54,6 +71,9 @@
     outline: 0.5px solid #FF9F66;
 }
 
+.hero__img-container{
+    width: 100%;
+}
 
 .shape {
     position: relative;
@@ -70,13 +90,13 @@
 .shape>img {
     position: absolute;
     width: 80%;
-    height: 200%;
+    height: 190%;
     top: 1rem;
     left: 3rem;
 }
 
 .hero__card-container{
-    margin-top: 15vh;
+    margin-top: 13vh;
     width: 100%;
     display: flex;
     gap: 1rem;
@@ -92,4 +112,43 @@
     margin-left: 1rem;
     margin-right: 1rem;
     gap:0.7rem;
+}
+
+.cardFull{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    .hero__text-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero__card-container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .card-flex{
+        gap:1rem;
+    }
+
+    .cardFull{
+        width: 70%;
+        margin-top: -2rem;
+        margin-left: -1rem;
+    }
+
+    
+    .text-flex-column{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .hero__img-container{
+        width: 50%;
+    }
 }
