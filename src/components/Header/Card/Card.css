@@ -75,15 +75,21 @@ h3 {
 
 .cadFull__img-container{
     width: 50%;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 @media screen and (min-width: 600px){
-    .cardFull__text-container{
+    .cardFull__container{
+        padding: 1rem;
         width: 100%;
     }
 
-    .text__title-container{
-        width: 100%;
+    .card__container{
+        height: 85%;
+    }
+
+    .card__text-container {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
 }
