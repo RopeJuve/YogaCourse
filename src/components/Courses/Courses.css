@@ -1,0 +1,60 @@
+.courses-container {
+    padding: 3rem 1.1rem;
+}
+
+.courses-wrapper {
+    text-align: center;
+}
+
+.content-head>h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 36px;
+    margin-bottom: 1rem;
+}
+
+.content-head>p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 22px;
+    color: #584F49;
+    margin-bottom: 1.5rem;
+}
+
+.courses-wrapper>button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #FF9F66;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.courses-wrapper>button:hover {
+    color: #FF9F66;
+    background-color: white;
+    outline: 0.5px solid #FF9F66;
+}
+
+
+@media screen and (min-width: 800px) {
+    .courses-container {
+        padding: 5rem 3rem;
+    }
+
+    .content-head {
+        margin: 1rem 8rem;
+    }
+
+    .card-wrapper {
+        display: flex;
+        gap: 1rem;
+    }
+}
