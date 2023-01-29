@@ -1,0 +1,46 @@
+.countdown-container {
+    padding: 3rem 1.1rem;
+}
+
+.left-div>h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 36px;
+    margin-bottom: 1.5rem;
+}
+
+.left-div>h2 {
+    font-family: 'Homemade Apple';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 35px;
+    color: #FF9F66;
+}
+
+.founder {
+    display: flex;
+    align-items: center;
+}
+
+.founder>p {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 20px;
+    color: #584F49;
+}
+
+.text-wraper {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .countdown-wraper {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+        align-items: center;
+    }
+
+}

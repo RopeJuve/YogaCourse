@@ -5,6 +5,7 @@ import img from "../../assets/young-smiling-guy-sitting-fitness-mat-meditating-r
 import img2 from "../../assets/man-standing-one-leg-full-shot (1).png";
 import img1 from "../../assets/man-standing-one-leg-full-shot.png";
 const Hero = () => {
+
   return (
     <div className="hero__container">
       <div className="hero__text-container">

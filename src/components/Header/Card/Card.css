@@ -31,7 +31,7 @@ h3 {
 }
 
 .cardFull__container {
-    padding: 1.5rem;
+    padding: 1rem;
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -40,7 +40,6 @@ h3 {
 }
 
 .cardFull__text-container {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -59,32 +58,31 @@ h3 {
     color: #1C0A0A;
 }
 
-.text__title-container{
+.text__title-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
 }
 
-.text__title-container > h1{
+.text__title-container>h1 {
     color: #FF7D6B;
     font-weight: 700;
     font-size: 26px;
     line-height: 36px;
 }
 
-.cadFull__img-container{
-    width: 50%;
+.cadFull__img-container {
     padding-left: 2rem;
 }
 
-@media screen and (min-width: 600px){
-    .cardFull__container{
+@media screen and (min-width: 600px) {
+    .cardFull__container {
         padding: 1rem;
         width: 100%;
     }
 
-    .card__container{
+    .card__container {
         height: 85%;
     }
 
