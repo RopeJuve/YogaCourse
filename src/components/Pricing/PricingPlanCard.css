@@ -1,0 +1,105 @@
+ul {
+    list-style: none;
+}
+
+.pricingPlanCard__container {
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.pricingPlanCard__header {
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 2px solid #F4F5F7;
+}
+
+.pricingPlanCard__header>h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.pricingPlanCard__header>p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.pricingPlanCard__header-red {
+    background: #FF9F66;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.pricingPlanCard__header-red>p {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 44px;
+}
+
+.pricingPlanCard__header-red>h3 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 24px;
+  
+}
+
+.pricingPlanCard__acces {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.pricingPlanCard__acces>p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.list {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #F4F5F7;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 22px;
+    color: #584F49;
+    flex: 1;
+}
+
+.btn-flex{
+    display: flex;
+    outline: 1px solid #FF9F66;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-flex> button{
+    flex: 1;
+    border: none;
+    background-color:white;
+    color: #FF9F66;  
+    cursor: pointer; 
+    transition: all 0.5s ease-in-out; 
+}
+
+.btn-flex>button:hover{
+    background-color:#FF9F66;
+    color: white;
+}
+
+
+@media screen and (min-width: 800px){
+    .pricingPlanCard__acces {
+        height: 75%;
+        justify-content:space-between;
+    }
+}

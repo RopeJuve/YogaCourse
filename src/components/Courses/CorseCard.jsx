@@ -1,7 +1,7 @@
-import './CourseCard.css';
-import img from '../../assets/Rating.png'
+import "./CourseCard.css";
+import img from "../../assets/Rating.png";
 
-const CorseCard = ({imgUrl, title, text}) => {
+const CorseCard = ({ imgUrl, title, text }) => {
   return (
     <div className="course__container">
       <div className="course__content-wrapper">
@@ -15,11 +15,11 @@ const CorseCard = ({imgUrl, title, text}) => {
             <img src={img} alt="img" />
             <p>(18)</p>
           </div>
-          <a href="#">Get Started</a>
+          <a href="/">Get Started</a>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default CorseCard
+export default CorseCard;
