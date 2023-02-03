@@ -9,7 +9,7 @@ const Newsletters = () => {
         <p>Subscribe our newsletter for further updates about us</p>
         <div className="newsletter__email-flex">
           <div className="email-input">
-            <img src={email} alt='email' />
+            <img src={email} alt="email" />
             <input type="email" placeholder="Enter your email address" />
           </div>
           <button>Get Started</button>

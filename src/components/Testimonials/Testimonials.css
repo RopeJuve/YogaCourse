@@ -22,7 +22,7 @@
     margin-bottom: 1rem;
 }
 
-.testimonials__card > img{
+.testimonials__card>img {
     transform: translateY(-2rem);
     margin-bottom: -3.5rem;
 }
@@ -43,7 +43,7 @@
     color: #1C0A0A;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
     .testimonials__wrapper {
         margin: 0 auto;
         width: 70%;

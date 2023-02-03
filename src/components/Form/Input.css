@@ -1,0 +1,22 @@
+.input__wraper {
+    padding: 0.5rem;
+    border: 1px solid #CFCFCF;
+    border-radius: 3.01613px;
+}
+
+.border-none{
+    border: none;
+}
+
+.input__wraper>input {
+    border: none;
+    outline: none;
+    color: #584F49;
+}
+
+.input__wraper>input::placeholder {
+    color: #584F49;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+}

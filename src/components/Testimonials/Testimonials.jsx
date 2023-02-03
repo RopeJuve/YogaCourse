@@ -1,6 +1,6 @@
 import "./Testimonials.css";
-import icon from '../../assets/Mask Group.png'
-import arrow from '../../assets/Arrow.png'
+import icon from "../../assets/Mask Group.png";
+import arrow from "../../assets/Arrow.png";
 
 const Testimonials = () => {
   return (
