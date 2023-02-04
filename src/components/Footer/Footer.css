@@ -1,0 +1,40 @@
+.footer__container {
+    padding: 0 1.5rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.footer__container>p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #584F49;
+}
+
+.footer__logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer__logo-wrapper>p {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 24px;
+}
+
+.footer__social-wrapper{
+    transform: translateX(-1.4rem);
+}
+
+@media screen and (min-width: 800px) {
+    .footer__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__social-wrapper{
+        transform: translateX(1.4rem);
+    }
+}

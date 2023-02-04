@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from '../../assets/Group 5739.png'
+import logo from "../../assets/Group 5739.png";
 import Menu from '../../assets/Menu.png'
 
 const NavBar = () => {

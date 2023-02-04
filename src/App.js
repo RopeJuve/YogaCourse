@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Newsletters from "./components/Newsletter/Newsletters";
 import Form from "./components/Form/Form";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonials />
       <Newsletters />
       <Form />
+      <Footer />
     </div>
   );
 }
