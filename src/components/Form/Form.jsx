@@ -5,11 +5,13 @@ const Form = () => {
   return (
     <div className="form__container">
       <div className="form__wraper">
+        <div className="form__heading">
         <h1>Get in Touch With Us for Yoga Course.</h1>
         <p>
           Get in touch with us for any kind of help. We are here to give you the
           best and also here to help you to find your yoga course.
         </p>
+        </div>
         <div className="form__form-wraper">
           <Input type="text" placeholder="First name" />
           <Input type="text" placeholder="Last name" />

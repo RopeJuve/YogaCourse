@@ -1,8 +1,13 @@
 .form__container {
     padding: 5rem 1.5rem;
 }
-
-.form__wraper>h1 {
+.form__wraper{
+    padding: 1rem;
+    background-image: url('../../assets/Shapes (1).png');
+    background-position-y: 5rem;
+    background-repeat: no-repeat;
+}
+.form__heading>h1 {
     max-width: 90%;
     font-weight: 700;
     font-size: 1.8rem;
@@ -11,7 +16,7 @@
 }
 
 
-.form__wraper>p {
+.form__heading>p {
     max-width: 90%;
     font-weight: 400;
     font-size: 12px;
@@ -21,6 +26,8 @@
 }
 
 .form__form-wraper {
+    min-width: 22.5rem;
+    max-width: 32.5rem;
     padding: 1.5rem 1rem;
     display: grid;
     gap: 0.5rem;
@@ -85,4 +92,24 @@
     background-color: white;
     color: #FF9F66;
     outline: 1px solid #FF9F66;
+}
+
+@media screen and (min-width: 800px) {
+    .form__wraper{
+        display: flex;
+        align-items: center;
+        background-image: url('../../assets/Shapes (1).png');
+        background-position-y: 0;
+        background-position-x: right 5rem;
+        background-repeat: no-repeat;
+    }
+
+    .form__heading{
+        width: 55%;
+    }
+
+    .form__form-wraper{
+        transform: translateY(-3rem);
+        width: 45%;
+    }
 }
