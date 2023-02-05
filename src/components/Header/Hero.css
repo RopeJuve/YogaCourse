@@ -160,10 +160,6 @@
         left: 3rem;
     }
 
-    .hero__card-container {
-     
-    }
-
     @media screen and (min-width: 1170px) {
         .hero__container{
             margin: 0 auto;
