@@ -1,6 +1,6 @@
 .card__container {
-    width: 17.3rem;
-    height: 17.3rem;
+    max-width: 17.3rem;
+    max-height: 17.3rem;
     padding: 0.7rem;
     display: grid;
     gap: 1rem;
@@ -8,12 +8,14 @@
     box-shadow: 0px -5.74468px 11.4894px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 .card__text-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
 }
 
 .card__text-container>h1 {
@@ -37,6 +39,7 @@ h3 {
 
 .cardFull__container {
     max-width: 34rem;
+    max-height: 17.3rem;
     padding: 1rem;
     display: flex;
     gap: 1rem;
