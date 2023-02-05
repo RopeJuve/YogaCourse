@@ -1,15 +1,19 @@
 .card__container {
+    width: 17.3rem;
+    height: 17.3rem;
     padding: 0.7rem;
+    display: grid;
+    gap: 1rem;
     background-color: white;
     box-shadow: 0px -5.74468px 11.4894px rgba(0, 0, 0, 0.05);
-    border-radius: 4px
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .card__text-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
 }
 
 .card__text-container>h1 {
@@ -26,11 +30,13 @@ h3 {
 }
 
 .card__container>img {
-    margin-top: 0.5rem;
     width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 .cardFull__container {
+    max-width: 34rem;
     padding: 1rem;
     display: flex;
     gap: 1rem;
@@ -80,14 +86,5 @@ h3 {
     .cardFull__container {
         padding: 1rem;
         width: 100%;
-    }
-
-    .card__container {
-        height: 85%;
-    }
-
-    .card__text-container {
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
     }
 }

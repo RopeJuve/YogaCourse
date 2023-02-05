@@ -128,11 +128,9 @@
 
     .hero__card-container {
         flex-direction: row;
-        justify-content: center;
     }
 
     .card-flex {
-        width: 50%;
         gap: 1rem;
     }
 
