@@ -13,7 +13,7 @@ const CardtFull = () => {
           We’re boosting online yoga by enabling anyone in the world to learn
           from the best
         </p>
-        <a href="#">READ MORE</a>
+        <a href="/">READ MORE</a>
       </div>
       <div className="cadFull__img-container">
         <img src={img} alt="img" />
