@@ -27,12 +27,14 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero__card-container">
+        <div className="hero__card-wrapper">
         <div className="card-flex">
           <Card title="Make Your Own Plan For Yoga." number="1" imgUrl={img1} />
           <Card title="Find a Yoga Mentor For You." number="2" imgUrl={img2} />
         </div>
         <div className="cardFull">
           <CardFull />
+        </div>
         </div>
       </div>
     </div>

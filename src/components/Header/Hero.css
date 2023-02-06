@@ -97,48 +97,49 @@
 
 .hero__card-container {
     margin-top: 13vh;
-    max-width: 73rem;
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
     background-color: #258675;
     z-index: 10;
     padding: 0 1rem;
+}
+
+.hero__card-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-flex {
     transform: translateY(-2rem);
     display: flex;
     gap: 0.7rem;
+    justify-content: center;
 }
 
 .cardFull{
-    flex-grow: 1;
-    transform: translateY(-2rem);
+    transform: translateY(-1.3rem);
 }
 
-@media screen and (min-width: 600px) {
-    
+
+@media screen and (min-width: 800px) {
+
     .hero__text-container {
         display: flex;
         flex-direction: row;
     }
-
-    .text-flex-column{
+    .text-flex-column {
         flex-grow: 1;
-    } 
+    }
 
     .hero__card-container {
         margin-top: 18vh;
+    }
+
+    .hero__card-wrapper {
         flex-direction: row;
+        gap: 0.7rem;
     }
-
-    .card-flex {
-        gap: 1rem;
+    .cardFull{
+        transform: translateY(-2rem);
     }
-
- 
-
     .text-flex-column {
         margin-top: 3rem;
         width: 50%;
@@ -158,11 +159,5 @@
         height: 190%;
         top: 7rem;
         left: 3rem;
-    }
-
-    @media screen and (min-width: 1170px) {
-        .hero__container{
-            margin: 0 auto;
-        }
     }
 }
