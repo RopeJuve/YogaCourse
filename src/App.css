@@ -1,9 +1,11 @@
 body{
+    position: relative;
     max-width: 73rem;
 }
 
 @media screen and (min-width: 1170px) {
     body{
         margin: 0 auto;
+        padding: 0 5rem;
     }
 }

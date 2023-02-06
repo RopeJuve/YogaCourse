@@ -20,13 +20,13 @@
 .card__text-container>h1 {
     color: #CFCFCF;
     font-weight: 700;
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     line-height: 36px;
 }
 
 h3 {
     font-weight: 700;
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-size: clamp(0.9rem, 3vw, 1rem);
     line-height: 1rem;
 }
 
@@ -38,7 +38,7 @@ h3 {
 
 .cardFull__container {
     max-width: 35.1rem;
-    padding: 1rem;
+    padding: 0.7rem;
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -61,7 +61,7 @@ h3 {
 
 .cardFull__text-container>a {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     line-height: 20px;
     color: #1C0A0A;
 }
@@ -76,7 +76,7 @@ h3 {
 .text__title-container>h1 {
     color: #FF7D6B;
     font-weight: 700;
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     line-height: 36px;
 }
 

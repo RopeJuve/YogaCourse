@@ -5,28 +5,23 @@
 
 }
 
-
-
 .text-flex-column {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-
-
-
 .text-flex-column>h1 {
     margin-right: 2rem;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 800;
     line-height: 46px;
 }
 
 .text-flex-column>p {
     color: #584F49;
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
     line-height: 22px;
     margin-bottom: 1.5rem;
 }
@@ -38,7 +33,7 @@
     width: fit-content;
     padding: 0.4rem 1.5rem;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 0.75rem;
     line-height: 20px;
     border-radius: 3px;
     border: none;
@@ -103,45 +98,57 @@
 }
 
 .hero__card-wrapper {
-    max-width: calc(960px - 2rem);
+    max-width: calc(896px - 2rem);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    transform: translateY(-2rem);
 }
 
 .card-flex {
-    transform: translateY(-2rem);
     display: flex;
     gap: 0.7rem;
     justify-content: center;
 }
 
-.cardFull{
-    transform: translateY(-1.3rem);
-}
 
 
-@media screen and (min-width: 800px) {
 
+@media screen and (min-width: 600px) {
     .hero__text-container {
         display: flex;
         flex-direction: row;
     }
+
+    .text-flex-column {
+        width: 80%;
+    }
+
+
+    .shape>img {
+        transform: translateY(0.5rem);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero__img-container {
+        width: 50%;
+        margin-top: -7rem;
+    }
+
+    .shape img{
+        transform: translateY(3rem)
+    }
+
     .text-flex-column {
         flex-grow: 1;
     }
-
-    .hero__card-container {
-        margin-top: 18vh;
-    }
-
     .hero__card-wrapper {
         flex-direction: row;
         align-items: flex-end;
         gap: 0.7rem;
-    }
-    .cardFull{
-        transform: translateY(-2rem);
     }
     .text-flex-column {
         margin-top: 3rem;
@@ -151,16 +158,22 @@
         justify-content: space-around;
     }
 
-    .hero__img-container {
-        width: 50%;
-        margin-top: -7rem;
+    @media screen and (min-width: 900px) {
+        .hero__container{
+            margin: 0 auto;
+        }
+        .shape img {
+            transform: translateY(10rem);
+        }
+
+        .text-flex-column {
+            transform: translateY(5.5rem);
+        }
+
+        .hero__card-container {
+            margin-top: 30vh;
+        }
+
     }
 
-    .shape>img {
-        position: absolute;
-        width: 80%;
-        height: 190%;
-        top: 7rem;
-        left: 3rem;
-    }
 }
