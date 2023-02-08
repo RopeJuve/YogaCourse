@@ -1,5 +1,14 @@
 # Figma Landing Page designe to ReactJS Code
+This project is simple Landing page.
 
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ git clone https://github.com/RopeJuve/YogaCourse.git
+$ npm install
+$ npm start
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
