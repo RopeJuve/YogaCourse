@@ -1,4 +1,5 @@
 body{
+    scroll-behavior: smooth;
     position: relative;
     max-width: 73rem;
 }

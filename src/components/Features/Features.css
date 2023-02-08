@@ -10,6 +10,8 @@
 }
 
 .features-wrapper {
+    margin: 0 auto;
+    max-width: 54rem;
     transform: translateY(-3rem);
 }
 
@@ -60,7 +62,9 @@
         align-items: center;
         gap: 3rem;
     }
-
+    .features-wrapper{
+        transform: translateY(-5rem);
+    }
     .content-text {
         width: 60%;
     }

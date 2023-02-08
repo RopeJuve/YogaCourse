@@ -4,7 +4,8 @@ ul {
 
 .pricingPlanCard__container {
     background-color: white;
-    margin-bottom: 1rem;
+    max-width: 37rem;
+    margin: 1rem auto;
 }
 
 .pricingPlanCard__header {
@@ -43,7 +44,7 @@ ul {
     font-weight: 500;
     font-size: 0.8rem;
     line-height: 24px;
-  
+
 }
 
 .pricingPlanCard__acces {
@@ -74,7 +75,7 @@ ul {
     flex: 1;
 }
 
-.btn-flex{
+.btn-flex {
     display: flex;
     outline: 1px solid #FF9F66;
     cursor: pointer;
@@ -82,24 +83,24 @@ ul {
     transition: all 0.5s ease-in-out;
 }
 
-.btn-flex> button{
+.btn-flex>button {
     flex: 1;
     border: none;
-    background-color:white;
-    color: #FF9F66;  
-    cursor: pointer; 
-    transition: all 0.5s ease-in-out; 
+    background-color: white;
+    color: #FF9F66;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
-.btn-flex>button:hover{
-    background-color:#FF9F66;
+.btn-flex>button:hover {
+    background-color: #FF9F66;
     color: white;
 }
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
     .pricingPlanCard__acces {
         height: 75%;
-        justify-content:space-between;
+        justify-content: space-between;
     }
 }

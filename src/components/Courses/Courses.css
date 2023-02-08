@@ -3,6 +3,8 @@
 }
 
 .courses-wrapper {
+    max-width: 54rem;
+    margin: 0 auto;
     text-align: center;
 }
 

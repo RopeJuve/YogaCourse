@@ -6,7 +6,7 @@ import course3 from "../../assets/Rectangle 4541.png";
 
 const Courses = () => {
   return (
-    <div className="courses-container">
+    <div className="courses-container" id="Classes">
       <div className="courses-wrapper">
         <div className="content-head">
           <h1>Popular Courses</h1>

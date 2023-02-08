@@ -3,7 +3,7 @@ import Input from "./Imput";
 
 const Form = () => {
   return (
-    <div className="form__container">
+    <div className="form__container" id="Contact">
       <div className="form__wraper">
         <div className="form__heading">
         <h1>Get in Touch With Us for Yoga Course.</h1>

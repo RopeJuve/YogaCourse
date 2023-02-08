@@ -3,7 +3,7 @@ import img from "../../assets/Group 5782.png";
 
 const Features = () => {
   return (
-    <div className="features-container">
+    <div className="features-container" id="Features">
       <div className="features-wrapper">
         <img src={img} alt="img" />
         <div className="content-wraper">

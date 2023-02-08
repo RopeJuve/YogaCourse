@@ -4,7 +4,7 @@
 }
 
 .newsletter__wrapper {
-    max-width: 50rem;
+    max-width: 54rem;
     padding: 1.5rem 0.5rem;
     border: 3px solid #45A090;
     border-radius: 8px;
@@ -27,7 +27,9 @@
 }
 
 .newsletter__email-flex {
+    margin: 0 auto;
     padding: 0.5rem 2rem;
+    max-width: 46rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +75,12 @@
     color: white;
     background-color: #FF9F66;
     transition: all 0.5s ease-in-out;
+}
+
+.newsletter__email-flex > button:hover{
+    color: #FF9F66;
+    background-color:white;
+    outline: 1px solid #FF9F66;
 }
 
 
