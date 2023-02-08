@@ -16,6 +16,14 @@ $ git clone https://github.com/RopeJuve/YogaCourse.git
 $ npm install
 $ npm start
 ```
+##Descktop version
+
+![Descktop](./src/assets/Yola%20Yoga%20Landing%20Page.png)
+
+##Mobile version
+
+![Descktop](./src/assets/Mobile%20Responsive.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
