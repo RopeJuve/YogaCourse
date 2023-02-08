@@ -1,6 +1,13 @@
 # Figma Landing Page designe to ReactJS Code
 This project is simple Landing page.
 
+## Technologies
+Project is created with:
+* HTML
+* CSS
+* Javascript
+* React Js
+
 ## Setup
 To run this project, install it locally using npm:
 
