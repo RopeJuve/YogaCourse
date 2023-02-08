@@ -8,6 +8,8 @@ Project is created with:
 * Javascript
 * React Js
 
+
+
 ## Setup
 To run this project, install it locally using npm:
 
@@ -16,13 +18,13 @@ $ git clone https://github.com/RopeJuve/YogaCourse.git
 $ npm install
 $ npm start
 ```
-##Descktop version
+## Descktop version
 
 ![Descktop](./src/assets/Yola%20Yoga%20Landing%20Page.png)
 
-##Mobile version
+## Mobile version
 
-![Descktop](./src/assets/Mobile%20Responsive.png)
+![Mobile](./src/assets/Mobile%20Responsive.png)
 
 # Getting Started with Create React App
 
