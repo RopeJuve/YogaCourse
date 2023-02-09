@@ -30,7 +30,7 @@
 
 .testimonials__card>p {
     font-weight: 500;
-    font-size: 0.6rem;
+    font-size: clamp(0.8rem, 1vw, 0.9rem);
     line-height: 16px;
     color: #584F49;
     margin-bottom: 0.5rem;

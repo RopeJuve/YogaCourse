@@ -17,7 +17,7 @@
 
 .content-head>p {
     font-weight: 400;
-    font-size: .8rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);;
     line-height: 22px;
     color: #584F49;
     margin-bottom: 1.5rem;

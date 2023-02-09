@@ -29,7 +29,7 @@
 }
 
 .content-text>p {
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     line-height: 22px;
     color: #584F49;
     margin-bottom: 1.5rem;

@@ -1,5 +1,5 @@
 import "./Form.css";
-import Input from "./Imput";
+import Input from "./Input";
 
 const Form = () => {
   return (
