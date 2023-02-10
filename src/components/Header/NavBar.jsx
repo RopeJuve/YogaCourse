@@ -20,6 +20,13 @@ const NavBar = () => {
         <button className="btn-sing-in">Sing In</button>
         <button className="btn-sing-up">Sing Up</button>
         <img src={Menu} alt="" />
+        <div className="nav-list-mobile">
+        {["Home", "Classes", "Features", "Contact"].map((listItem, index) => (
+          <a key={index} href={`#${listItem}`}>
+            {listItem}
+          </a>
+        ))}
+      </div>
       </div>
     </nav>
   );
