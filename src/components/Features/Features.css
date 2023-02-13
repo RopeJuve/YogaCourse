@@ -15,7 +15,7 @@
     transform: translateY(-3rem);
 }
 
-.content-wraper {
+.content-wrapper {
     padding-right: 3rem;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
 
 
 @media screen and (min-width: 700px) {
-    .content-wraper {
+    .content-wrapper {
         flex-direction: row;
         align-items: center;
         gap: 3rem;

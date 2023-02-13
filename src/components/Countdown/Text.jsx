@@ -1,11 +1,11 @@
 import "./Text.css";
 
-const Text = ({ title, subtitle, paragraf }) => {
+const Text = ({ title, subtitle,  paragraph }) => {
   return (
     <div className="text">
       <h2>{title}</h2>
       <h5>{subtitle}</h5>
-      <p>{paragraf}</p>
+      <p>{paragraph}</p>
     </div>
   );
 };

@@ -2,7 +2,7 @@
     padding: 3rem 1.1rem;
 }
 
-.countdown-wraper{
+.countdown-wrapper{
     margin: 5rem auto;
     max-width: 54rem;
 }
@@ -34,14 +34,14 @@
     color: #584F49;
 }
 
-.text-wraper {
+.text-wrapper {
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
 }
 
 @media screen and (min-width: 600px) {
-    .countdown-wraper {
+    .countdown-wrapper {
         display: flex;
         flex-direction: row-reverse;
         gap: 2rem;

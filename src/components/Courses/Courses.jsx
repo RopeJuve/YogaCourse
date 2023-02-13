@@ -19,17 +19,17 @@ const Courses = () => {
           <CourseCard
             imgUrl={course1}
             title="Resortive Yoga Training & Immersion"
-            text="Here is some tips for new job seekars who want to get a dream job and want to shine in his career."
+            text="Here is some tips for new job seekers who want to get a dream job and want to shine in his career."
           />
           <CourseCard
             imgUrl={course2}
             title="Resortive Yoga Training & Immersion"
-            text="Here is some tips for new job seekars who want to get a dream job and want to shine in his career."
+            text="Here is some tips for new job seekers who want to get a dream job and want to shine in his career."
           />
           <CourseCard
             imgUrl={course3}
             title="Resortive Yoga Training & Immersion"
-            text="Here is some tips for new job seekars who want to get a dream job and want to shine in his career."
+            text="Here is some tips for new job seekers who want to get a dream job and want to shine in his career."
           />
         </div>
         <button>Browse All</button>

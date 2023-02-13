@@ -4,7 +4,7 @@ import Input from "./Input";
 const Form = () => {
   return (
     <div className="form__container" id="Contact">
-      <div className="form__wraper">
+      <div className="form__wrapper">
         <div className="form__heading">
         <h1>Get in Touch With Us for Yoga Course.</h1>
         <p>
@@ -12,7 +12,7 @@ const Form = () => {
           best and also here to help you to find your yoga course.
         </p>
         </div>
-        <div className="form__form-wraper">
+        <div className="form__form-wrapper">
           <Input type="text" placeholder="First name" />
           <Input type="text" placeholder="Last name" />
           <Input type="email" placeholder="Email address" />
