@@ -14,7 +14,7 @@ const Hero = () => {
             Yoga is a way of life, rather than a chore. Counteract the stresses
             of modern life by becoming more mindful and compassionate.
           </p>
-          <div className="hero__brtn-container">
+          <div className="hero__btn-container">
             <button className="get-started">Get Started</button>
             <button className="learn-more">Learn More</button>
           </div>

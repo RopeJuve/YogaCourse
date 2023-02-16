@@ -1,7 +1,7 @@
 .form__container {
     padding: 5rem 1.5rem;
 }
-.form__wraper{
+.form__wrapper{
     max-width: 54rem;
     margin: 0 auto;
     padding: 1rem;
@@ -29,7 +29,7 @@
     margin-bottom: 1.8rem;
 }
 
-.form__form-wraper {
+.form__form-wrapper {
     max-width: 32.5rem;
     padding: 1.5rem 1rem;
     display: grid;
@@ -39,7 +39,7 @@
     border-radius: 12.0645px;
 }
 
-.form__form-wraper>textarea {
+.form__form-wrapper>textarea {
     font-family: 'Inter';
     padding: 0.5rem;
     font-weight: 400;
@@ -52,7 +52,7 @@
     outline: none;
 }
 
-.form__form-wraper>textarea::placeholder {
+.form__form-wrapper>textarea::placeholder {
     font-family: 'Inter';
     color: #584F49;
     font-weight: 400;
@@ -78,7 +78,7 @@
     cursor: pointer;
 }
 
-.form__form-wraper>button {
+.form__form-wrapper>button {
     cursor: pointer;
     width: 35%;
     padding: 0.4rem;
@@ -92,14 +92,14 @@
     line-height: 20px;
 }
 
-.form__form-wraper>button:hover {
+.form__form-wrapper>button:hover {
     background-color: white;
     color: #FF9F66;
     outline: 1px solid #FF9F66;
 }
 
 @media screen and (min-width: 800px) {
-    .form__wraper{
+    .form__wrapper{
         display: flex;
         align-items: center;
         background-image: url('../../assets/Shapes (1).png');
@@ -111,7 +111,7 @@
         width: 55%;
     }
 
-    .form__form-wraper{
+    .form__form-wrapper{
         transform: translateY(-3rem);
         width: 45%;
     }

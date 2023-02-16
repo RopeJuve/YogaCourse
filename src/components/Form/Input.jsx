@@ -4,7 +4,7 @@ const Input = ({type, placeholder}) => {
     const border = placeholder === '' ? 'border-none' : ''
 
   return (
-    <div className={`input__wraper  ${border}`}>
+    <div className={`input__wrapper  ${border}`}>
       <input type={type} placeholder={placeholder} />
     </div>
   );

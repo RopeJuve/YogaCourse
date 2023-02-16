@@ -29,7 +29,7 @@
 
 
 
-.hero__brtn-container>button {
+.hero__btn-container>button {
     display: inline-block;
     width: fit-content;
     padding: 0.4rem 1.5rem;

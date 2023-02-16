@@ -3,8 +3,8 @@ import PricingPlanCard from './PricingPlanCard'
 
 const Pricing = () => {
   return (
-    <div className="pracing__container">
-      <div className="pracing__wrapper">
+    <div className="pricing__container">
+      <div className="pricing__wrapper">
         <div className="pricing__head-container">
           <h1>Pick a Pricing Plan</h1>
           <p>
@@ -17,7 +17,7 @@ const Pricing = () => {
             title="Single yoga class"
             price="15"
             recommend={false}
-            acces={[
+            access={[
               "Pay as you go",
               "Perfect for non-residence",
               "Acces to all classes",
@@ -27,18 +27,18 @@ const Pricing = () => {
             title="1 month membership"
             price="60"
             recommend={true}
-            acces={[
+            access={[
               "Pay as you go",
               "Perfect for non-residence",
-              "Acces to all classes",
-              "Acces to all classes",
+              "Access to all classes",
+              "Access to all classes",
             ]}
           />
           <PricingPlanCard
             title="3 month membership"
             price="150"
             recommend={false}
-            acces={[
+            access={[
               "Pay as you go",
               "Perfect for non-residence",
               "Acces to all classes",

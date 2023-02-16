@@ -6,7 +6,7 @@ const Features = () => {
     <div className="features-container" id="Features">
       <div className="features-wrapper">
         <img src={img} alt="img" />
-        <div className="content-wraper">
+        <div className="content-wrapper">
           <div className="content-header">
             <h1>The Better Way to Start Yoga</h1>
           </div>

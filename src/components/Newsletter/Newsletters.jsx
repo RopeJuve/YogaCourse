@@ -3,7 +3,7 @@ import email from '../../assets/envelope (1) 1.png'
 
 const Newsletters = () => {
   return (
-    <div className="newaletter__container">
+    <div className="newsletter__container">
       <div className="newsletter__wrapper">
         <h1>Subscribe Our Newsletter</h1>
         <p>Subscribe our newsletter for further updates about us</p>
