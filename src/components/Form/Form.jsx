@@ -6,20 +6,23 @@ const Form = () => {
     <div className="form__container" id="Contact">
       <div className="form__wrapper">
         <div className="form__heading">
-        <h1>Get in Touch With Us for Yoga Course.</h1>
-        <p>
-          Get in touch with us for any kind of help. We are here to give you the
-          best and also here to help you to find your yoga course.
-        </p>
+          <h1>Get in Touch With Us for Yoga Course.</h1>
+          <p>
+            Get in touch with us for any kind of help. We are here to give you
+            the best and also here to help you to find your yoga course.
+          </p>
         </div>
         <div className="form__form-wrapper">
-          <Input type="text" placeholder="First name" />
-          <Input type="text" placeholder="Last name" />
-          <Input type="email" placeholder="Email address" />
-          <textarea rows="4" placeholder="Message" wrap="soft" />
+          <Input type="text" name='First Name'/>
+          <Input type="text" name='Last Name'/>
+          <Input type="email" name='Email address'/>
+          <textarea rows="4" placeholder="Message"name="soft" />
           <div className="checked-box">
-            <Input type="checkbox" placeholder="" />
-            <p>by clicking here you agree to our <a href="/">terms and policy.</a></p>
+            <Input type="checkbox" label="" name=''/>
+            <p>
+              by clicking here you agree to our{" "}
+              <a href="/">terms and policy.</a>
+            </p>
           </div>
           <button>Send Message</button>
         </div>
