@@ -11,9 +11,15 @@ const Input = ({ type, name }) => {
 
   const handelChange = (e) => {
     setValue(e.target.value);
-
+    if (name === "") {
+      setWrapper("border-none");
+    }
     if (inputRef.current.checkValidity()) {
-      setWrapper("input__wrapper correct");
+      if (name === "") {
+        setWrapper("input__wrapper border-none");
+      } else {
+        setWrapper("input__wrapper correct");
+      }
     } else {
       setWrapper("input__wrapper input-error");
       setError(`You need to enter valid ${e.target.name}`);
@@ -29,9 +35,17 @@ const Input = ({ type, name }) => {
           type={type}
           name={name}
           value={value}
-          onFocus={() => setWrapper("input__wrapper animate")}
+          onFocus={() => {
+            name === ""
+              ? setWrapper("input__wrapper border-none")
+              : setWrapper("input__wrapper animate");
+          }}
           onChange={handelChange}
-          onBlur={() => setWrapper("input__wrapper blur")}
+          onBlur={() => {
+            name === ""
+              ? setWrapper("input__wrapper border-none")
+              : setWrapper("input__wrapper blur");
+          }}
           required={name === "" ? false : true}
         />
       </div>
