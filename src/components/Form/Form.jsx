@@ -13,12 +13,12 @@ const Form = () => {
           </p>
         </div>
         <div className="form__form-wrapper">
-          <Input type="text" name='First Name'/>
-          <Input type="text" name='Last Name'/>
-          <Input type="email" name='Email address'/>
-          <textarea rows="4" placeholder="Message"name="soft" />
+          <Input type="text" name="First Name" />
+          <Input type="text" name="Last Name" />
+          <Input type="email" name="Email address" />
+          <textarea rows="4" placeholder="Message" name="soft" />
           <div className="checked-box">
-            <Input type="checkbox" label="" name=''/>
+            <Input type="checkbox" label="" name="" />
             <p>
               by clicking here you agree to our{" "}
               <a href="/">terms and policy.</a>

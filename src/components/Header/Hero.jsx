@@ -1,13 +1,24 @@
 import "./Hero.css";
 import Card from "./Card/Card";
-import CardFull from "./Card/CardtFull";
+import CardFull from "./Card/CardFull";
 import img from "../../assets/young-smiling-guy-sitting-fitness-mat-meditating-removebg 1.png";
 import img2 from "../../assets/man-standing-one-leg-full-shot (1).png";
 import img1 from "../../assets/man-standing-one-leg-full-shot.png";
+import { useRef } from "react";
+import { useObserve } from "../../hooks/useObserve";
 const Hero = () => {
+  const heroRef = useRef(null);
+  const isIntersecting = useObserve(heroRef);
+  console.log(isIntersecting);
   return (
-    <div className="hero__container">
-      <div className="hero__text-container">
+    <div ref={heroRef} className="hero__container">
+      <div
+        className={
+          isIntersecting
+            ? "hero__text-container show"
+            : "hero__text-container hide"
+        }
+      >
         <div className="text-flex-column">
           <h1>Yoga to Release Stress</h1>
           <p>
@@ -25,7 +36,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hero__card-container">
+      <div
+        className={
+          isIntersecting
+            ? "hero__card-container show-card"
+            : "hero__card-container hide-card"
+        }
+      >
         <div className="hero__card-wrapper">
           <div className="card-flex">
             <Card
