@@ -1,7 +1,7 @@
-import img from '../../../assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 1.png'
-import './Card.css'
+import img from "../../../assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 1.png";
+import "./Card.css";
 
-const CardtFull = () => {
+const CardFull = () => {
   return (
     <div className="cardFull__container">
       <div className="cardFull__text-container">
@@ -20,6 +20,6 @@ const CardtFull = () => {
       </div>
     </div>
   );
-}
+};
 
-export default CardtFull
+export default CardFull;
