@@ -11,15 +11,15 @@ export function useObserve(ref, root = null, threshold = "0") {
       },
       { root, threshold }
     );
-
-    if (ref.current) {
-      observer.observe(ref.current);
+    const current = ref.current
+    if (current) {
+      observer.observe(current);
     }
 
     return () => {
-      observer.unobserve(ref.current);
+      observer.unobserve(current);
     };
-  }, [ref]);
+  }, [ref, root, threshold]);
 
   return isIntersecting;
 }
